@@ -9,7 +9,7 @@ public class NumberOfHitsHealth : MonoBehaviour, IHealth
     private int healthInHits = 5;
 
     [SerializeField]
-    private float invulnerabilityTimeAfterEachHit = 5f;
+    private float invulnerabilityTimeAfterEachHit = 3f;
 
     private int hitsRemaining;
     private bool canTakeDamage = true;
